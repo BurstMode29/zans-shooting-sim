@@ -1,0 +1,1 @@
+global.Shots = 0;

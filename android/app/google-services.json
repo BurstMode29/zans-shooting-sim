@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "431457647270",
+    "project_id": "zans-shooting-sim",
+    "storage_bucket": "zans-shooting-sim.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431457647270:android:4871c659808645adced267",
+        "android_client_info": {
+          "package_name": "com.zansmodern"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431457647270-ibv6cm2mal6b3f4nmi3vvtiko5q1b840.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9J2GtoBFUzhzoMra4Iee31pfJDz46l2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431457647270-ibv6cm2mal6b3f4nmi3vvtiko5q1b840.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

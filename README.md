@@ -68,6 +68,28 @@ You've successfully run and modified your React Native App. :partying_face:
 
 If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
 
+# Building the APK
+
+To generate a release APK for Android, run the following command from the root of your project:
+
+```bash
+# Navigate to the android directory
+cd android
+
+# Build the release APK
+./gradlew assembleRelease
+
+# On Windows, you can use
+gradlew.bat assembleRelease
+```
+
+The generated APK will be located at:
+- `android/app/build/outputs/apk/release/app-release.apk`
+
+## Build Troubleshooting
+
+If you encounter issues during the build process related to the `react-native-bluetooth-serial` dependency, make sure you're using the updated version that uses `implementation` instead of the deprecated `compile` method in its Gradle configuration.
+
 # Learn More
 
 To learn more about React Native, take a look at the following resources:
